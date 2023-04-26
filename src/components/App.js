@@ -17,7 +17,10 @@ function App() {
               path="/customsoftware"
               Component={() => <div>Custom Software</div>}
             />
-            <Route path="/mobileapps" Component={() => <div>Mobile Apps</div>} />
+            <Route
+              path="/mobileapps"
+              Component={() => <div>Mobile Apps</div>}
+            />
             <Route path="/websites" Component={() => <div>Web Sites</div>} />
             <Route path="/revolution" Component={() => <div>Revolution</div>} />
             <Route path="/about" Component={() => <div>About us</div>} />
